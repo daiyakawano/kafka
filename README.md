@@ -1,6 +1,6 @@
 環境構築
 
-gradle initmで作成しましたが、こちらの方が早いかと
+gradle initmで作成しましたが、こちらの方が早いかと...知らないですけど
 
 [Spring Initializr](https://start.spring.io/)
 
