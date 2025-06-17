@@ -13,8 +13,12 @@ public class KafkaProducerController {
         this.kafkaTemplate = kafkaTemplate;
     }
 
+    // ProducerAPI
+    // メソッド POST
+    // エンドポイント　http://localhost:8080/api/produce
     @PostMapping("/produce")
     public String sendMessage(@RequestBody String message) {
+        // Topicに登録
         kafkaTemplate.send("my_topic", message);
         return "Message sent: " + message;
     }

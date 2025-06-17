@@ -11,6 +11,7 @@ public class KafkaConsumerService {
 
     private final List<String> messages = new CopyOnWriteArrayList<>();
 
+    // consumerで取得した時の処理
     @KafkaListener(topics = "output-topic", groupId = "my-consumer-group")
     public void consume(String message) {
         System.out.println("Received: " + message);

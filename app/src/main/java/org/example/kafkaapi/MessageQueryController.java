@@ -14,6 +14,9 @@ public class MessageQueryController {
         this.consumerService = consumerService;
     }
 
+    // ConsumerAPI
+    // メソッド GET
+    // エンドポイント　http://localhost:8080/api/consume
     @GetMapping("/consume")
     public List<String> getConsumedMessages() {
         return consumerService.getMessages();
