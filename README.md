@@ -11,7 +11,7 @@ gradle initで作成しましたが、こちらの方が早いかと...知らな
 
 ../gradle bootRun
 
-※macなのでwindowsはわかんないです。
+※自宅PCがmacなのでwindowsはわかんないです。
 
 
 リファレンス
